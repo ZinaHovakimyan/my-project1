@@ -3,8 +3,6 @@ import requests
 import allure
 
 
-@allure.feature('TEST UPDATE AND DELETE USER - feature')
-@allure.suite('TEST UPDATE AND DELETE USER - suite')
 @pytest.fixture()
 def create_user():
     data = {
